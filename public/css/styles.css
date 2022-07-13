@@ -931,4 +931,9 @@ span {
     content: var(--tw-content);
     width: 1.25rem;
   }
+
+  .peer:checked ~ .md\:peer-checked\:after\:left-8::after {
+    content: var(--tw-content);
+    left: 2rem;
+  }
 }
